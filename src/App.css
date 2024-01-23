@@ -1,0 +1,35 @@
+/* Commmon CSS */
+ul, li {
+  list-style: none;
+}
+.activeTab {
+  background-color: greenyellow;
+}
+
+
+/* Tab CSS */
+.tab-container {
+  border: 1px solid greenyellow;
+  padding: 25px;
+  max-width: 1024px;
+  margin: 35px auto 0 auto;
+}
+.tab-list {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.tab-list li {
+  font-size: 18px;
+  padding: 12px 20px;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+  transition: background-color ease-in-out .3s;
+}
+.tab-list li:hover {
+  background-color: greenyellow;
+  border: 1px solid transparent;
+}
+.tab-content {
+  min-height: 340px;
+}
