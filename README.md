@@ -2,4 +2,4 @@
 - useState (storing and updating state)
 - Conditionals (ternaries)
 - Reusable components
-- Props drilling
+- Props drillings
